@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d253da2f6e74c13b49462ec120ca3251 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d253da2f6e74c13b49462ec120ca3251" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d253da2f6e74c13b49462ec120ca3251 = L.map(
+                "map_d253da2f6e74c13b49462ec120ca3251",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_936f77f6152f8c7dd3afca6c5befbcb1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d253da2f6e74c13b49462ec120ca3251);
+        
+    
+            var marker_298a94235d2967019d480aaec08e2d6a = L.marker(
+                [-15.860541, -47.872291],
+                {}
+            ).addTo(map_d253da2f6e74c13b49462ec120ca3251);
+        
+    
+            var icon_5a8e82f70f318556226275c2ba405d6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_298a94235d2967019d480aaec08e2d6a.setIcon(icon_5a8e82f70f318556226275c2ba405d6c);
+        
+    
+        var popup_5975fc61c03401ceb1c16498731325b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0ce50677ba8a5496f505eedc9aff518 = $(`<div id="html_a0ce50677ba8a5496f505eedc9aff518" style="width: 100.0%; height: 100.0%;">Northern Peru</div>`)[0];
+                popup_5975fc61c03401ceb1c16498731325b6.setContent(html_a0ce50677ba8a5496f505eedc9aff518);
+            
+        
+
+        marker_298a94235d2967019d480aaec08e2d6a.bindPopup(popup_5975fc61c03401ceb1c16498731325b6)
+        ;
+
+        
+    
+    
+            var marker_af5f19a0a7aebad0d772e1ceb7352d98 = L.marker(
+                [37.319006, -121.947926],
+                {}
+            ).addTo(map_d253da2f6e74c13b49462ec120ca3251);
+        
+    
+            var icon_80c04b361ff7556ba26705565700ecba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af5f19a0a7aebad0d772e1ceb7352d98.setIcon(icon_80c04b361ff7556ba26705565700ecba);
+        
+    
+        var popup_eba9573fdd0d763d45bb22966e24e62b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e67579695d5816f6871f2362854fa6d2 = $(`<div id="html_e67579695d5816f6871f2362854fa6d2" style="width: 100.0%; height: 100.0%;">Meso America</div>`)[0];
+                popup_eba9573fdd0d763d45bb22966e24e62b.setContent(html_e67579695d5816f6871f2362854fa6d2);
+            
+        
+
+        marker_af5f19a0a7aebad0d772e1ceb7352d98.bindPopup(popup_eba9573fdd0d763d45bb22966e24e62b)
+        ;
+
+        
+    
+    
+            var marker_8294d805635cfb8e5791320577d62e1a = L.marker(
+                [50.744575, 3.600652],
+                {}
+            ).addTo(map_d253da2f6e74c13b49462ec120ca3251);
+        
+    
+            var icon_6a0329c3c68434865beebd972eabf241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8294d805635cfb8e5791320577d62e1a.setIcon(icon_6a0329c3c68434865beebd972eabf241);
+        
+    
+        var popup_8e38cb8a4ba6656fea1023971ef408b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6969ebfddcae950f0cfcf5d58878a17b = $(`<div id="html_6969ebfddcae950f0cfcf5d58878a17b" style="width: 100.0%; height: 100.0%;">Mesopotamia</div>`)[0];
+                popup_8e38cb8a4ba6656fea1023971ef408b0.setContent(html_6969ebfddcae950f0cfcf5d58878a17b);
+            
+        
+
+        marker_8294d805635cfb8e5791320577d62e1a.bindPopup(popup_8e38cb8a4ba6656fea1023971ef408b0)
+        ;
+
+        
+    
+    
+            var marker_c28b02c2833ad5b30050d940c5e8ec5a = L.marker(
+                [26.4941838299718, 29.871903452398],
+                {}
+            ).addTo(map_d253da2f6e74c13b49462ec120ca3251);
+        
+    
+            var icon_2b26b13eee0313b9ce8c63b4ac2a7a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c28b02c2833ad5b30050d940c5e8ec5a.setIcon(icon_2b26b13eee0313b9ce8c63b4ac2a7a92);
+        
+    
+        var popup_033b6d99622103dc59e28818eb1aa220 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e4418414e286324ceeb22a0eaa77c3 = $(`<div id="html_51e4418414e286324ceeb22a0eaa77c3" style="width: 100.0%; height: 100.0%;">Egypt</div>`)[0];
+                popup_033b6d99622103dc59e28818eb1aa220.setContent(html_51e4418414e286324ceeb22a0eaa77c3);
+            
+        
+
+        marker_c28b02c2833ad5b30050d940c5e8ec5a.bindPopup(popup_033b6d99622103dc59e28818eb1aa220)
+        ;
+
+        
+    
+    
+            var marker_df28872a05edd38b513a2492166fb42d = L.marker(
+                [35.4867029846329, 101.901875103385],
+                {}
+            ).addTo(map_d253da2f6e74c13b49462ec120ca3251);
+        
+    
+            var icon_e01c3764b230bed87ccc4ca2c19c82bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df28872a05edd38b513a2492166fb42d.setIcon(icon_e01c3764b230bed87ccc4ca2c19c82bf);
+        
+    
+        var popup_96b64463b658cc893331c827c12b7db6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7058ec4b9c49dceb860d87327ce2a790 = $(`<div id="html_7058ec4b9c49dceb860d87327ce2a790" style="width: 100.0%; height: 100.0%;">China</div>`)[0];
+                popup_96b64463b658cc893331c827c12b7db6.setContent(html_7058ec4b9c49dceb860d87327ce2a790);
+            
+        
+
+        marker_df28872a05edd38b513a2492166fb42d.bindPopup(popup_96b64463b658cc893331c827c12b7db6)
+        ;
+
+        
+    
+</script>
+</html>
