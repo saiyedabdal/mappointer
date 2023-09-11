@@ -1,1 +1,0 @@
-# Interactivemap_pyforupsc
